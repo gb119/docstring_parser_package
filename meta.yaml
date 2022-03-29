@@ -1,0 +1,34 @@
+{% set name = "docstring_parser" %}
+{% set version = "0.13" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+  sha256: 66dd7eac7232202bf220fd98a5f11491863c01f958a75fdd535c7eccac9ced78
+
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . -vv"
+
+requirements:
+  host:
+    - pip
+    - python
+  run:
+    - python
+
+about:
+  home: The package home page
+  license: MIT
+  license_family: MIT
+  license_file: 
+  summary: ""Parse Python docstrings in reST, Google and Numpydoc format""
+  doc_url: 
+  dev_url: 
+
+extra:
+  recipe-maintainers:
+    - your-github-id-here
