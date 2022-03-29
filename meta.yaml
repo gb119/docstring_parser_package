@@ -20,15 +20,19 @@ requirements:
   run:
     - python
 
+test:
+  imports:
+    - docstring_parser
+
 about:
-  home: The package home page
+  home: "https://github.com/rr-/docstring_parser"
   license: MIT
   license_family: MIT
-  license_file: 
-  summary: ""Parse Python docstrings in reST, Google and Numpydoc format""
-  doc_url: https://rr-.github.io/docstring_parser/
-  dev_url: https://github.com/rr-/docstring_parser
+  license_file: LICENSE
+  summary: "Parse Python docstrings in reST, Google and Numpydoc format"
+  doc_url: "https://rr-.github.io/docstring_parser/"
+  dev_url: "https://github.com/rr-/docstring_parser"
 
 extra:
   recipe-maintainers:
-    - https://github.com/gb119
+    - "https://github.com/gb119"
