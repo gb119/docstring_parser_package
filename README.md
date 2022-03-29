@@ -1,8 +1,6 @@
-# Conda Packaging Template
+# Conda Recipe for docstring_parser
 
-This template repository contains a default setup for building new conda packages via agithub action.
+docstring_parser is a package to parse Python docstrings in various flavors.
 
-## Contents
+This repository just builds it as conda packages.
 
-1. A github action to build conda packages and upload them for MacOS-X, Linux, Windows 74bit pythons v 3/6-3.9
-2. A build environment
